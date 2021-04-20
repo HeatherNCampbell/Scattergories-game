@@ -1,0 +1,45 @@
+.Timer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    background: blue;
+    border: 2px solid black;
+}
+
+.Timer-Top {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+ 
+}
+
+.Timer-Top-Btn {
+    /* padding for button */
+    padding: 3px;
+    font-size: 20px;
+
+}
+
+/* Hover Pseudo selector */
+.Timer-Top-Btn:hover {
+border: 2px solid #ffffff;
+background: black;
+color: white;
+cursor: pointer;
+
+}
+
+.Timer-Display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gold;
+    height: 75%
+}
+
+.Timer-Display-H1 {
+    font-size: 175px;
+}
