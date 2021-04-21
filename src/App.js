@@ -1,6 +1,6 @@
 import './App.css';
+import Letter from './letter/Letter'
 import Timer from './timer/Timer';
-import Letter from './letter/Letter';
 import Categories from './categories/Categories';
 
 function App() {
@@ -9,10 +9,9 @@ function App() {
       <div className='App-Section-One'>
         <Letter />
         <Timer />
-        <Categories />
       </div>
       <div className='App-Section-Two'>
-
+        <Categories />
       </div>
     </div>
   );

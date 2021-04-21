@@ -13,14 +13,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px;
- 
-}
+ }
 
 .Letter-Top-Btn {
     /* padding for button */
     padding: 3px;
     font-size: 20px;
-
 }
 
 /* Hover Pseudo selector */
@@ -29,7 +27,6 @@ border: 2px solid #ffffff;
 background: black;
 color: white;
 cursor: pointer;
-
 }
 
 .Letter-Display {
